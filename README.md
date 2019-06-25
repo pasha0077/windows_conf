@@ -1,0 +1,1 @@
+Keep the two files (ps1 and xml) in same folder while running

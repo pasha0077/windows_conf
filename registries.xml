@@ -1,0 +1,9 @@
+<registries>
+	<registry name="HideCortanaBar" enable="yes">
+		<description>none</description>
+		<path>HKCU:\Software\Microsoft\Windows\CurrentVersion\Search</path>
+		<keyname>SearchboxTaskbarMode</keyname>
+		<keytype>DWord</keytype>
+		<keyvalue>0</keyvalue>
+	</registry>
+</registries>

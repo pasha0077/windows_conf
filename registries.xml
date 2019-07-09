@@ -1,9 +1,68 @@
 <registries>
 	<registry name="HideCortanaBar" enable="yes">
 		<description>none</description>
+		<action>ModifyRegistry</action>
 		<path>HKCU:\Software\Microsoft\Windows\CurrentVersion\Search</path>
 		<keyname>SearchboxTaskbarMode</keyname>
 		<keytype>DWord</keytype>
 		<keyvalue>0</keyvalue>
+	</registry>
+	<registry name="HideTaskViewButton" enable="yes">
+		<description>none</description>
+		<action>ModifyRegistry</action>
+		<path>HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced</path>
+		<keyname>ShowTaskViewButton</keyname>
+		<keytype>DWord</keytype>
+		<keyvalue>0</keyvalue>
+	</registry>
+	<registry name="HidePeopleOnTaskbar" enable="yes">
+		<description>none</description>
+		<action>ModifyRegistry</action>
+		<path>HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People</path>
+		<keyname>PeopleBand</keyname>
+		<keytype>DWord</keytype>
+		<keyvalue>0</keyvalue>
+	</registry>
+	<registry name="QuickAccessThisPC" enable="yes">
+		<description>Launch "This PC" through quickaccess</description>
+		<action>ModifyRegistry</action>
+		<path>HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced</path>
+		<keyname>LaunchTo</keyname>
+		<keytype>DWord</keytype>
+		<keyvalue>1</keyvalue>
+	</registry>
+	<registry name="HidePicturesFromThisPC" enable="yes">
+		<description>Remove "Pictures" folder from showing up in "This PC"</description>
+		<action>ModifyRegistry</action>
+		<path>HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag</path>
+		<keyname>ThisPCPolicy</keyname>
+		<keytype>String</keytype>
+		<keyvalue>Hide</keyvalue>
+	</registry>
+	<registry name="HideMusicFromThisPC" enable="yes">
+		<description>Remove "Music" folder from showing up in "This PC"</description>
+		<action>ModifyRegistry</action>
+		<path>HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag</path>
+		<keyname>ThisPCPolicy</keyname>
+		<keytype>String</keytype>
+		<keyvalue>Hide</keyvalue>
+	</registry>
+	<registry name="HideVideosFromThisPC" enable="yes">
+		<description>Remove "Videos" folder from showing up in "This PC"</description>
+		<action>ModifyRegistry</action>
+		<path>HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag</path>
+		<keyname>ThisPCPolicy</keyname>
+		<keytype>String</keytype>
+		<keyvalue>Hide</keyvalue>
+	</registry>
+	<registry name="Hide3DObjectsFromThisPC1" enable="yes">
+		<description>Remove "3D Objects" folder from showing up in "This PC"</description>
+		<action>DeletePath</action>
+		<path>HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}</path>
+	</registry>
+	<registry name="Hide3DObjectsFromThisPC2" enable="yes">
+		<description>Remove "3D Objects" folder from showing up in "This PC"</description>
+		<action>DeletePath</action>
+		<path>HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}</path>
 	</registry>
 </registries>

@@ -31,6 +31,14 @@
 		<keytype>DWord</keytype>
 		<keyvalue>1</keyvalue>
 	</registry>
+	<registry name="HideDocumentsFromThisPC" enable="no">
+		<description>Remove "Documents" folder from showing up in "This PC"</description>
+		<action>ModifyRegistry</action>
+		<path>HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag</path>
+		<keyname>ThisPCPolicy</keyname>
+		<keytype>String</keytype>
+		<keyvalue>Hide</keyvalue>
+	</registry>
 	<registry name="HidePicturesFromThisPC" enable="yes">
 		<description>Remove "Pictures" folder from showing up in "This PC"</description>
 		<action>ModifyRegistry</action>

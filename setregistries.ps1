@@ -32,7 +32,7 @@ Function ModifyRegistry {
     }
 }
 
-[xml]$xml=get-content $PSScriptRoot\test.xml
+[xml]$xml=get-content $PSScriptRoot\registries.xml
 $nodes = select-xml "//registry" $xml
 $nodes|foreach-object{
     ModifyRegistry -setting $_.node.name -action $_.node.action -enable $_.node.enable -path $_.node.path -keyname $_.node.keyname -keytype $_.node.keytype -keyvalue $_.node.keyvalue

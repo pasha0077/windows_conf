@@ -113,4 +113,12 @@
 		<keytype>DWord</keytype>
 		<keyvalue>1</keyvalue>
 	</registry>
+	<registry name="ShowFileExtensions" enable="yes">
+		<description>none</description>
+		<action>ModifyRegistry</action>
+		<path>HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced</path>
+		<keyname>HideFileExt</keyname>
+		<keytype>DWord</keytype>
+		<keyvalue>0</keyvalue>
+	</registry>
 </registries>

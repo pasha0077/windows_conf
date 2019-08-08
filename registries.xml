@@ -97,4 +97,12 @@
 		<keytype>DWord</keytype>
 		<keyvalue>0x0940064</keyvalue>
 	</registry>
+	<registry name="ExpandRibbon" enable="yes">
+		<description>none</description>
+		<action>ModifyRegistry</action>
+		<path>HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Ribbon</path>
+		<keyname>MinimizedStateTabletModeOff</keyname>
+		<keytype>DWord</keytype>
+		<keyvalue>0</keyvalue>
+	</registry>
 </registries>

@@ -121,4 +121,12 @@
 		<keytype>DWord</keytype>
 		<keyvalue>0</keyvalue>
 	</registry>
+	<registry name="ShowHidden" enable="yes">
+		<description>none</description>
+		<action>ModifyRegistry</action>
+		<path>HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced</path>
+		<keyname>Hidden</keyname>
+		<keytype>DWord</keytype>
+		<keyvalue>1</keyvalue>
+	</registry>
 </registries>

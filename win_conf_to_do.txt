@@ -1,0 +1,4 @@
+install chrome, notepad++, 7zip, winmerge, source tree
+remove pins from taskbar: cortana, edge, mail,
+remove all shortcuts from start menu
+resize start menu

@@ -1,5 +1,5 @@
 change "put the computer to sleep" setting to "Never"
-install git, chrome, notepad++, 7zip, winmerge, source tree
+install git, chrome, notepad++, 7zip, winmerge, visual studio, 
 uninstall one drive
 remove pins from taskbar: cortana, edge, mail,
 remove all shortcuts from start menu
@@ -8,4 +8,4 @@ add to start menu: control panel, powershell, powershell ise
 add to taskbar: control panel, chrome, explorer
 associate .txt, .xml, .md with npp
 remove all shortcuts from desktop
-
+donwload sysinternals tools

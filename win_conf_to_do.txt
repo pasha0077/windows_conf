@@ -5,8 +5,8 @@ uninstall default install store apps: 3D viewer, Calendar, Calculator, Candy cru
 remove pins from taskbar: cortana, edge, mail,
 remove all shortcuts from start menu
 resize start menu
-add to start menu: control panel, powershell, powershell ise
-add to taskbar: control panel, chrome, explorer
+add to start menu: control panel, powershell, powershell ise, WindDbg, Visual Studio, notepad++
+add to taskbar: control panel, chrome, explorer, visual studio, process explorer, notepad++
 associate .txt, .xml, .md with npp
 remove all shortcuts from desktop
 donwload sysinternals tools

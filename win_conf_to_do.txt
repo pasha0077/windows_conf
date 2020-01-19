@@ -1,6 +1,7 @@
 change "put the computer to sleep" setting to "Never"
 install git, chrome, notepad++, 7zip, winmerge, visual studio, 
 uninstall one drive
+uninstall default install store apps: 3D viewer, Calendar, Calculator, Candy crush Friends, Candy crush Saga, Feedback hub, Films & hub, groove music, Microsoft news, Microsoft solitaire collection, Mixed reality portal, Mobile plans, Office, OneNote, Paint3D, Skype, Spotify, Tips, Voice Recorder, Weather, xbox console combo, 
 remove pins from taskbar: cortana, edge, mail,
 remove all shortcuts from start menu
 resize start menu
@@ -9,3 +10,5 @@ add to taskbar: control panel, chrome, explorer
 associate .txt, .xml, .md with npp
 remove all shortcuts from desktop
 donwload sysinternals tools
+change the date and time formats
+environment variables: _NT_SYMBOL_PATH : srv*c:\symbols*https://msdl.microsoft.com/download/symbols

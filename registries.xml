@@ -15,6 +15,14 @@
 		<keytype>DWord</keytype>
 		<keyvalue>0</keyvalue>
 	</registry>
+	<registry name="HideCortanaButton" enable="yes">
+		<description>ShowCortanaButton on taskbar</description>
+		<action>ModifyRegistry</action>
+		<path>HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced</path>
+		<keyname>ShowTaskViewButton</keyname>
+		<keytype>DWord</keytype>
+		<keyvalue>0</keyvalue>
+	</registry>
 	<registry name="HidePeopleOnTaskbar" enable="yes">
 		<description>none</description>
 		<action>ModifyRegistry</action>

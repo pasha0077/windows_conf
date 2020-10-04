@@ -161,4 +161,12 @@
 		<keytype>DWord</keytype>
 		<keyvalue>0</keyvalue>
 	</registry>
+	<registry name="ShowFullFilePathInTitle" enable="yes">
+		<description>Show the full file path instead of the folder name in the title bar.</description>
+		<action>ModifyRegistry</action>
+		<path>HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\CabinetState</path>
+		<keyname>FullPath</keyname>
+		<keytype>DWord</keytype>
+		<keyvalue>1</keyvalue>
+	</registry>
 </registries>

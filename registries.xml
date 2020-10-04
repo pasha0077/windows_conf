@@ -55,7 +55,7 @@
 		<keytype>String</keytype>
 		<keyvalue>Hide</keyvalue>
 	</registry>
-	<registry name="HideDocumentsFromThisPC" enable="no">
+	<registry name="HideDocumentsFromThisPC" enable="yes">
 		<description>Remove "Documents" folder from showing up in "This PC"</description>
 		<action>ModifyRegistry</action>
 		<path>HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag</path>
@@ -136,5 +136,29 @@
 		<keyname>Hidden</keyname>
 		<keytype>DWord</keytype>
 		<keyvalue>1</keyvalue>
+	</registry>
+	<registry name="HideRecentlyUsedInQuickAccess" enable="yes">
+		<description>Show recently used files in Quick Access</description>
+		<action>ModifyRegistry</action>
+		<path>HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced</path>
+		<keyname>ShowRecent</keyname>
+		<keytype>DWord</keytype>
+		<keyvalue>0</keyvalue>
+	</registry>
+	<registry name="HideFreqentlyUsedInQuickAccess" enable="yes">
+		<description>Show Freqently used folders in Quick Access</description>
+		<action>ModifyRegistry</action>
+		<path>HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced</path>
+		<keyname>ShowFreqent</keyname>
+		<keytype>DWord</keytype>
+		<keyvalue>0</keyvalue>
+	</registry>
+	<registry name="ShowListInTaskbarInsteadOfThumbnails" enable="yes">
+		<description>Change Threshold of Taskbar Thumbnails to Show List</description>
+		<action>ModifyRegistry</action>
+		<path>HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband</path>
+		<keyname>NumThumbnails</keyname>
+		<keytype>DWord</keytype>
+		<keyvalue>0</keyvalue>
 	</registry>
 </registries>

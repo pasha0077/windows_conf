@@ -1,0 +1,16 @@
+
+[merge]
+    tool = winmerge
+
+[mergetool "winmerge"]
+    name = WinMerge
+    trustExitCode = true
+    cmd = "c:/Program\\ Files/WinMerge/WinMergeU.exe" -u -e -dl \"Local\" -dr \"Remote\" $LOCAL $REMOTE $MERGED
+
+[diff]
+    tool = winmerge
+
+[difftool "winmerge"]
+    name = WinMerge
+    trustExitCode = true
+    cmd = "c:/Program\\ Files/WinMerge/WinMergeU.exe" -u -e $LOCAL $REMOTE

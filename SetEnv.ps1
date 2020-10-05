@@ -1,0 +1,1 @@
+[System.Environment]::SetEnvironmentVariable("_NT_SYMBOL_PATH", "srv*c:\symbols*https://msdl.microsoft.com/download/symbols", [System.EnvironmentVariableTarget]::Machine)

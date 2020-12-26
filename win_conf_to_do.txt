@@ -1,8 +1,8 @@
 change "put the computer to sleep" setting to "Never"
+change power button click and close lid behaviour
 install git, chrome, notepad++, 7zip, winmerge, visual studio, IDA Pro, 010 Editor, fiddler, wireshark, windows sdk, Debug Diagnostics Tool 2
-remove pins from taskbar: cortana, edge, mail,
-remove all shortcuts from start menu, removed but refactor and add a layout
-add to start menu: control panel, powershell, powershell ise, WindDbg, Visual Studio, notepad++, calc, ida, 010, ddt2, wireshark, fiddler
+remove pins from taskbar: cortana, edge, mail, store
+add a layout in start meu: control panel, powershell, powershell ise, WindDbg, Visual Studio, notepad++, calc, ida, 010, ddt2, wireshark, fiddler
 add to taskbar: control panel, chrome, explorer, visual studio, process explorer, notepad++, calc
 associate .txt, .xml, .md with npp
 remove all shortcuts from desktop
